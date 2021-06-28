@@ -1,0 +1,209 @@
+<resources>
+    <string name="app_name">HireATeacher</string>
+    <string name="title_activity_work_map">Map</string>
+    <string name="title_activity_nav_work_map">NavWorkMap</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_registrar_ubicacion">Register</string>
+    <string name="btn_buscar_ubicacion">Find your address</string>
+    <string name="btn_guardar_ubicacion">Save your address</string>
+
+    <string name="country_prompt">SELECCIONAR ASIGNATURA</string>
+    <string name="title_activity_sms">SmsActivity</string>
+
+    <!-- SMS -->
+    <string name="action_logout">Exit</string>
+    <string name="msg_start_app">Welcome! Select your account type</string>
+    <string name="btt_teacher">TEACHER</string>
+    <string name="btt_student">STUDENT</string>
+    <string name="msg_teacher_start">Please enter your Username and Password</string>
+    <string name="msg_enter_mobile">To get started please complete the following fields!</string>
+    <string name="lbl_username">Username</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_pass">Password</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_mobile">Mobile</string>
+    <string name="lbl_next">NEXT</string>
+    <string name="lbl_next_teacher">ENTER</string>
+    <string name="msg_sit_back">Wait while we check the cell phone number</string>
+    <string name="msg_manual_otp">(In case the automatic SMS detection fails, enter the OTP code in the field below)</string>
+    <string name="lbl_enter_otp">Enter OTP</string>
+    <string name="lbl_submit">SEND</string>
+    <string name="name_teacher">"Teacher's name "</string>
+    <string name="msg_dire_ing">Your address has been entered correctly</string>
+
+    <!-- DialogAsigTeach -->
+    <string name="work_teacher">Profession:</string>
+    <string name="username_teacher">Username:</string>
+    <string name="edit_modteacher">"Modalities: "</string>
+    <string name="edit_nivteacher">"Levels: "</string>
+    <string name="edit_infoteacher">"Information: "</string>
+    <string name="edit_locteacher">"Location: "</string>
+    <string name="title_dialogContactTeacher">Hiring</string>
+
+    <!-- DialogContactTeach -->
+    <string name="subtitle_dialogContactTeacher">Select the desired options</string>
+    <string name="spinner_nivel">Level</string>
+    <string name="spinner_modalidad">Mode</string>
+    <string name="spinner_horario">Timetables</string>
+    <string name="button_accept_event">Hire</string>
+
+    <!-- Buttons -->
+    <string name="button_cancel_event">Close</string>
+    <string name="button_accept_cont">Accept</string>
+    <string name="button_cancel_cont">Cancel</string>
+    <string name="button_accept_contact">OK</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_ratings">ratings</string>
+    <string name="menu_notifications">notifications</string>
+    <string name="menu_communications">messages</string>
+    <string name="menu_profile">profile</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <!--SnackBar -->
+    <string name="snack_delete_dash">deleted!</string>
+
+    <!-- Tooltip -->
+    <string name="tooltipFiltrosMenu">Filters</string>
+    <string name="fab_costo">Cost</string>
+    <string name="fab_modalidad_nivel">Level/Modality</string>
+    <string name="fab_erase_fil">Remove Filter</string>
+    <string name="fab_calendar">Date</string>
+    <string name="fab_horario">Schedule</string>
+
+    <!-- RecyclerView -->
+    <string name="my_cart" translatable="false">My Cart</string>
+    <string name="delete">REMOVE</string>
+    <string name="info_filtro_costo">Adjust the slider to the desired class value</string>
+    <string name="title_filtro_costo">Cost of class</string>
+    <string name="button_set_filter">Apply</string>
+    <string name="filtro_costo">Cost</string>
+    <string name="filtro_fecha">Select the desired date</string>
+    <string name="title_filtro_levmod">Class Level/Modality</string>
+    <string name="info_filtro_levmod">Select the desired option</string>
+    <string name="filtro_primaria">Primary</string>
+    <string name="filtro_secundaria">Secondary</string>
+    <string name="filtro_terciaria">College</string>
+    <string name="filtro_universitaria">"University  "</string>
+    <string name="filtro_nivel_titulo">"Level: "</string>
+    <string name="filtro_modalidad_titulo">Mode:</string>
+    <string name="filtro_online" translatable="false">Online</string>
+    <string name="filtro_presencial">On-site</string>
+    <string name="filtro_semipresencial">Semi-Presential</string>
+    <string name="filtro_domicilio">At Address</string>
+    <string name="filtro_hora_desde">From</string>
+    <string name="filtro_hora_hasta">To</string>
+    <string name="fab_ubicacion">Location</string>
+    <string name="title_filtro_ubicacion">Location</string>
+    <string name="subtitle_filtro_ubicacion">Enter the desired location</string>
+    <string name="filtro_ubicacion_hint">Location...</string>
+
+    <!-- RecyclerView RateFragment-->
+    <string name="rating_parent_left">Given</string>
+    <string name="rating_parent_right">Received</string>
+    <string name="rate_list_adapter_feedback">Opinion:</string>
+
+    <!-- RecyclerView DashboardTFragment-->
+    <string name="dash_teacher_adapter_tit">Latest Updates</string>
+    <string name="dash_teacher_adapter_student">Student:</string>
+    <string name="dash_teacher_adapter_mod">Mode:</string>
+    <string name="dash_teacher_adapter_asig">Subject:</string>
+    <string name="dash_teacher_adapter_hor_cla">Schedule:</string>
+    <string name="dash_teacher_adapter_fecha_cla">Date:</string>
+
+    <!-- RateDialog -->
+    <string name="dialog_rate_description_very_bad">Very bad</string>
+    <string name="dialog_rate_description_bad">Bad</string>
+    <string name="dialog_rate_description_quite_good">Acceptable</string>
+    <string name="dialog_rate_description_very_good">Very good</string>
+    <string name="dialog_rate_description_excelent">Excellent</string>
+    <string name="dialog_rate_button_submit">Send</string>
+    <string name="dialog_rate_button_neutral">Some other time</string>
+    <string name="dialog_rate_button_cancel">Cancel</string>
+    <string name="dialog_rate_title">Rate the</string>
+    <string name="dialog_rate_description">If you wish you can also give your opinion.</string>
+    <string name="dialog_rate_hint">Please write your comment here...</string>
+    <string name="slide_text" translatable="false">Test</string>
+
+    <!-- Error -->
+    <string name="reg_student_mobile_err">Please enter a valid mobile number</string>
+    <string name="reg_details_err">Please enter the following information</string>
+    <string name="log_teacher_error">Please check the data entered.</string>
+    <string name="server_get_rest">I\'m very sorry, an error occurred while getting the information from the server.</string>
+    <string name="search_asig_not_found">I\'m very sorry, we can\'t find any teacher who taught that subject at this time.</string>
+    <string name="slide_2_title">Welcome!</string>
+    <string name="slide_2_desc">"Welcome to HireATeacher, we offer a quality service for both students and teachers. "</string>
+    <string name="slide_1_title" translatable="false">"HireATeacher "</string>
+    <string name="slide_1_desc">"The easiest way for students to hire private lessons! "</string>
+    <string name="slide_3_title">Students</string>
+    <string name="slide_3_desc">"Hire the classes you need, when you need them in a simple way! "</string>
+    <string name="slide_4_title">"Teachers "</string>
+    <string name="slide_4_desc">Concentrate on teaching, leave the hard work to us!</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="slides_ended">UNDERSTOOD</string>
+    <string name="start">UNDERSTOOD</string>
+
+    <!-- WelcomeActivity -->
+    <string name="change_orientation">Change Orientation</string>
+    <string name="rotate">Rotate</string>
+    <string name="title_fragment_slider">Fragment Slider</string>
+    <string name="anti_clock_spin">Anti Clock Spin</string>
+    <string name="clock_spin">Clock Spin</string>
+    <string name="cube_in_depth">Cube In Depth</string>
+    <string name="cube_in_rotate">Cube In Rotate</string>
+    <string name="cube_in_scaling">Cube In Scaling</string>
+    <string name="cube_out_depth">Cube Out Depth</string>
+    <string name="cube_out_rotate">Cube Out Rotate</string>
+    <string name="cube_out_scaling">Cube Out Scaling</string>
+    <string name="depth_page">Depth Page</string>
+    <string name="depth">Depth</string>
+    <string name="fade_out">Fade Out</string>
+    <string name="fan">Fan</string>
+    <string name="fidget_spin">"Fidget Spin "</string>
+    <string name="gate">"Gate "</string>
+    <string name="hinge">Hinge</string>
+    <string name="horizontal_flip">Horizontal Flip</string>
+    <string name="pop">Pop</string>
+    <string name="simple_transformation">Simple</string>
+    <string name="spinner_transformation">Spinner</string>
+    <string name="toss_transformation">Toss</string>
+    <string name="vertical_flip">Vertical Flip</string>
+    <string name="vertical_shut">Vertical Shut</string>
+    <string name="zoom_out">Zoom Out</string>
+
+    <!-- ShowCase-->
+    <string name="show_first_title_teacher">Latest Updates</string>
+    <string name="show_first_desc_teacher">Here you can visualize all the information of the hiring</string>
+    <string name="show_first_title_student">"Search engine "</string>
+    <string name="show_first_desc_student">Enter in this field the subjects you want to search</string>
+    <string name="show_second_title">Notifications</string>
+    <string name="show_second_desc_student">Here you will be alerted when a contract is confirmed</string>
+    <string name="show_second_desc_teacher">Here you will be alerted when you are hired</string>
+    <string name="show_third_title">Ratings</string>
+    <string name="show_third_desc">On this screen you can view the ratings you submited, and the ones made about you</string>
+    <string name="show_fourth_title">Communications (UNDER CONSTRUCTION!!!)</string>
+    <string name="show_fourth_desc_teacher">Here you will be able to communicate with the students that hire you.</string>
+    <string name="show_fourth_desc_student">Here you will be able to communicate with the teachers you hire.</string>
+    <string name="show_fifth_title">Profile (UNDER CONSTRUCTION!!!)</string>
+    <string name="show_fifth_desc">On this screen you can view all the information about yourself, and make the corresponding changes to the settings.</string>
+    <string name="searchquery">Enter desired course...</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="country_arrays">
+        <item>Programación Java</item>
+        <item>Programación Android</item>
+        <item>Base de Datos</item>
+        <item>Testing</item>
+        <item>Infraestructura</item>
+        <item>Cyber Seguridad</item>
+        <item>Diseño Proyecto</item>
+        <item>Robotica</item>
+        <item>Machine Learning</item>
+    </string-array>
+</resources>

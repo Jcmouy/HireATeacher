@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinator_layout_rating"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Fragment.NotificationFragment">
+
+    <RelativeLayout
+        android:id="@+id/fra_rat_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundFrag">
+
+        <FrameLayout
+            android:id="@+id/main_rating_frame_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <com.nightonke.jellytogglebutton.JellyToggleButton
+            android:id="@+id/jelly_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="75dp"
+            android:paddingLeft="280dp"
+            app:jtbJelly="active_tremble_body_slim_jim"
+            app:jtbLeftTextTypeface="fonts/Lato-Light.ttf"
+            app:jtbRightTextTypeface="fonts/Lato-Light.ttf"
+            app:jtbLeftBackgroundColor="@android:color/white"
+            app:jtbRightBackgroundColor="@android:color/holo_green_dark"
+            app:jtbLeftThumbColor="@android:color/holo_green_dark"
+            app:jtbRightThumbColor="@android:color/white"
+            app:jtbLeftTextColor="@android:color/white"
+            app:jtbRightTextColor="@android:color/holo_green_dark"
+            app:jtbLeftText="@string/rating_parent_left"
+            app:jtbRightText="@string/rating_parent_right"
+            app:jtbLeftTextSize="10sp"
+            app:jtbRightTextSize="10sp"
+            app:jtbTextMarginCenter="4dp"
+            app:jtbColorChangeType="hsv"
+            />
+
+    </RelativeLayout>
+
+</FrameLayout>

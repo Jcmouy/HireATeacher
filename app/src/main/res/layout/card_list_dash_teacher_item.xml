@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/view_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark">
+
+        <ImageView
+            android:id="@+id/delete_icon"
+            android:layout_width="@dimen/ic_delete"
+            android:layout_height="@dimen/ic_delete"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padd_10"
+            android:src="@drawable/ic_delete_white_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padd_10"
+            android:layout_toLeftOf="@id/delete_icon"
+            android:text="@string/delete"
+            android:textColor="#fff"
+            android:textSize="13dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/view_foreground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardbackgroundFrag"
+        android:padding="@dimen/padd_10">
+
+        <TextView
+            android:id="@+id/money_earn"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/fech"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="310dp"
+            android:background="@drawable/boton_redondo_rojo"
+            android:ellipsize="end"
+            android:fontFamily="assets/Roboto-Light.ttf"
+            android:gravity="center"
+            android:maxLines="3"
+            android:textColor="@android:color/white"
+            android:textStyle="bold|italic"
+            android:textSize="14dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_profile_photo_rating"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FFFFFF"
+            android:elevation="5dp"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile" />
+
+        <TextView
+            android:id="@+id/name_est"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/user_profile_photo_rating"
+            android:layout_marginLeft="10dp"
+            android:ellipsize="end"
+            android:fontFamily="assets/Roboto-Light.ttf"
+            android:maxLines="3"
+            android:textColor="@android:color/holo_green_dark"
+            android:text="@string/dash_teacher_adapter_student"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/name_est"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1dp"
+            android:ellipsize="end"
+            android:fontFamily="assets/Roboto-Light.ttf"
+            android:maxLines="3"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textStyle="italic"
+            android:textSize="11dp" />
+
+        <TextView
+            android:id="@+id/asig_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_est"
+            android:layout_toRightOf="@+id/user_profile_photo_rating"
+            android:layout_marginLeft="10dp"
+            android:ellipsize="end"
+            android:fontFamily="assets/Roboto-Light.ttf"
+            android:layout_marginTop="15dp"
+            android:maxLines="3"
+            android:textColor="@android:color/holo_green_dark"
+            android:text="@string/dash_teacher_adapter_asig"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/asig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_toRightOf="@+id/asig_name"
+            android:layout_marginLeft="5dp"
+            android:ellipsize="end"
+            android:fontFamily="assets/Roboto-Light.ttf"
+            android:layout_marginTop="17dp"
+            android:maxLines="3"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textStyle="italic"
+            android:textSize="11dp" />
+
+        <TextView
+        android:id="@+id/mod_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/asig_name"
+        android:layout_toRightOf="@+id/user_profile_photo_rating"
+        android:layout_marginLeft="10dp"
+        android:ellipsize="end"
+        android:fontFamily="assets/Roboto-Light.ttf"
+        android:layout_marginTop="15dp"
+        android:maxLines="3"
+        android:textColor="@android:color/holo_green_dark"
+        android:text="@string/dash_teacher_adapter_mod"
+        android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/mod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/asig"
+            android:layout_toRightOf="@+id/mod_name"
+            android:layout_marginLeft="5dp"
+            android:ellipsize="end"
+            android:fontFamily="assets/Roboto-Light.ttf"
+            android:layout_marginTop="17dp"
+            android:maxLines="3"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textStyle="italic"
+            android:textSize="11dp" />
+
+        <TextView
+            android:id="@+id/hor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="230dp"
+            android:layout_marginLeft="10dp"
+            android:ellipsize="end"
+            android:fontFamily="assets/Roboto-Light.ttf"
+            android:maxLines="3"
+            android:textColor="@android:color/holo_green_dark"
+            android:text="@string/dash_teacher_adapter_hor_cla"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/hor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/hor_name"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1dp"
+            android:ellipsize="end"
+            android:fontFamily="assets/Roboto-Light.ttf"
+            android:maxLines="3"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textStyle="italic"
+            android:textSize="11dp" />
+
+        <TextView
+            android:id="@+id/fech_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hor_name"
+            android:layout_marginStart="230dp"
+            android:layout_marginLeft="10dp"
+            android:ellipsize="end"
+            android:fontFamily="assets/Roboto-Light.ttf"
+            android:layout_marginTop="15dp"
+            android:maxLines="3"
+            android:textColor="@android:color/holo_green_dark"
+            android:text="@string/dash_teacher_adapter_fecha_cla"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/fech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_toRightOf="@+id/fech_name"
+            android:layout_marginLeft="5dp"
+            android:ellipsize="end"
+            android:fontFamily="assets/Roboto-Light.ttf"
+            android:layout_marginTop="17dp"
+            android:maxLines="3"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textStyle="italic"
+            android:textSize="11dp" />
+
+    </RelativeLayout>
+</FrameLayout>

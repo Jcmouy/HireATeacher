@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.DashboardFragment">
+
+    <include
+        layout="@layout/app_bar_nav_work_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/fab_margin_bottom"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="50dp"
+        android:visibility="gone"
+        app:layout_anchor="@+id/frame_container"
+        app:layout_anchorGravity="center"
+        app:menu_backgroundColor="#ccffffff"
+        app:menu_fab_hide_animation="@anim/fab_slide_out_to_right"
+        app:menu_fab_label=""
+        app:menu_fab_show_animation="@anim/fab_slide_in_from_right"
+        app:menu_labels_ellipsize="end"
+        app:menu_labels_singleLine="true"
+        fab:menu_icon="@drawable/ic_settings">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_item5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_location_b"
+            app:fab_colorNormal="@color/px_cabal"
+            app:fab_label="@string/fab_ubicacion"
+            app:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_item4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_watch"
+            app:fab_colorNormal="@color/px_cordobesa"
+            app:fab_label="@string/fab_horario"
+            app:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_item3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_calendar"
+            app:fab_colorNormal="@color/colorPrimaryOne"
+            app:fab_label="@string/fab_calendar"
+            app:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_item1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_money"
+            app:fab_label="@string/fab_costo"
+            app:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_item2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_education"
+            app:fab_colorNormal="@color/colorAccentOne"
+            app:fab_label="@string/fab_modalidad_nivel"
+            app:fab_size="mini" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</FrameLayout>

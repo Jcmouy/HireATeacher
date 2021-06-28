@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="dividerColor">#1F000000</color>
+
+    <color name="colorPrimaryOne">#7b4bff</color>
+    <color name="colorPrimaryDarkOne">#6539ba</color>
+    <color name="colorAccentOne">#FF4081</color>
+    <color name="bgBottomNavigation">#fe485a</color>
+
+    <color name="bg_white">#ffffff</color>
+    <color name="bg_row_background">#fa315b</color>
+    <color name="item_name">#535353</color>
+    <color name="description">#a9a9a9</color>
+
+    <color name="starColor">#ead44d</color>
+    <color name="noteDescriptionTextColor">#132868</color>
+    <color name="titleTextColor">#212121</color>
+    <color name="descriptionTextColor">#424242</color>
+    <color name="commentTextColor">#212121</color>
+    <color name="hintTextColor">#55000000</color>
+    <color name="rateAppDialogBackgroundColor">#ffffff</color>
+
+    <color name="starColor2">#57A4F0</color>
+    <color name="noteDescriptionTextColor2">#57A4F0</color>
+    <color name="titleTextColor2">#000000</color>
+    <color name="descriptionTextColor2">#8B888F</color>
+    <color name="commentTextColor2">#000000</color>
+    <color name="commentBackgroundColor2">#F9F7F9</color>
+    <color name="hintTextColor2">#8B888F</color>
+
+    <!-- SlideButton -->
+    <color name="button_bg_color">#FFFFFF</color>
+    <color name="slide_bg_color">#3F51B5</color>
+    <color name="slide_text_color">#FFFFFF</color>
+    <color name="slide_stroke_color">#FFFFFF</color>
+
+    <color name="colorSliderBackground">#FF181821</color>
+    <color name="colorTextColor">#FFFFFFFF</color>
+    <color name="colorSwitchColor">#FF2371FA</color>
+
+    <!-- RatingFragColors -->
+    <color name="cardbackgroundFrag">#FAFAFA</color>
+    <color name="backgroundFrag">#EEEEEE</color>
+    <color name="backgroundFragDelete">#6328a5</color>
+
+    <!-- SlideColor -->
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+    <color name="dot_light_screen5">#f9e28d</color>
+    <color name="dot_light_screen6">#f9ac8d</color>
+    <color name="dot_light_screen7">#a4f98d</color>
+
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+</resources>

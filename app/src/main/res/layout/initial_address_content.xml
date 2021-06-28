@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/layout_Aquiresides"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_lin3"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Aquí resides?"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+        <Button
+            android:text="@string/btn_guardar_ubicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSaveAddress"
+            android:background="@drawable/boton_redondo_rojo"
+            android:layout_margin="8dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:text="@string/btn_buscar_ubicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnFindaddress"
+            android:background="@drawable/boton_redondo_blanco"
+            android:textColor="#eb4034"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/layout_lin4"
+        android:visibility="gone">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Escribe tu dirección"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:id="@+id/txtDireccion"
+            />
+
+        <Button
+            android:text="Verificar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnVerificarDireccion"
+            android:background="@drawable/boton_redondo_rojo"
+            android:layout_margin="8dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:onClick="obtenerDireccion"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/layout_filtro_estudiante"
+        android:visibility="gone">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Asignatura"
+            android:textAlignment="center"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/country_arrays"
+            android:prompt="@string/country_prompt"
+            android:layout_margin="7dp"
+            android:textAlignment="textStart"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modalidad"
+            android:textAlignment="center"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:layout_margin="7dp"/>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FILTRAR"
+            android:background="@drawable/boton_redondo_rojo"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_margin="15dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
